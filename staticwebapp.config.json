@@ -1,7 +1,7 @@
 {
     "routes": [
         {
-            "route": "/docs*",
+            "route": "/docs/*",
             "allowedRoles": ["authenticated"] 
         }
     ]
