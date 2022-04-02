@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "route": "/login",
+            "redirect": "/.auth/login/aad"
+        },
+        {
+            "route": "/docs",
+            "allowedRoles": ["authenticated"] 
+        }
+    ]
+}
