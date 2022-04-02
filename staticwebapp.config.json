@@ -5,7 +5,7 @@
             "redirect": "/.auth/login/aad"
         },
         {
-            "route": "/docs",
+            "route": "/docs*",
             "allowedRoles": ["authenticated"] 
         }
     ]
